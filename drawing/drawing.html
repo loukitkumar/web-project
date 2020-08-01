@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>drawing pad</title>
+            <link rel="stylesheet" href="drawing_style.css">
+        </head>
+        <body>
+            <div id="toolbar">
+                radius
+                <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                <button id="plus">+</button>
+                <span>&nbsp&nbsp&nbsp&nbsp</span>
+                <button id="minus">-</button>
+                 
+                <span>&nbsp&nbsp&nbsp&nbsp</span>
+                <span id="radius"></span>
+                <button id="clear">clear</button>
+                <button id="save">save</button>
+                <div id="color">
+                   <div class="col black active" style="background-color: black"></div>
+                  <div class="col red" style="background-color: red"></div>
+                   <div class="col blue" style="background-color: blue"></div>
+                   <div class="col green" style="background-color: green" ></div>
+
+                </div>
+            </div>
+            <canvas id="canvas">
+                if you see the text then your browser is rubbish
+            </canvas>
+        </body>
+        <script src="drawing_js.js">
+        </script>
+    </html>

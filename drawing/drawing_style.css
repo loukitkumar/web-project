@@ -1,0 +1,39 @@
+#toolbar{
+    background: #333;
+    padding: 10px;
+    
+    color: white;
+     
+}
+button{
+    border-radius: 5px;
+}
+canvas{
+    border: 1px solid black;
+}
+#color{
+    float: right;
+}
+.col{
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.col.active{
+    border:2px solid white; 
+}
+.col.red{
+    background-color:  red;
+}
+.col.blue{
+    background-color:  blue;
+    
+}
+.col.black{
+    background-color:  black;
+}
+.col.green{
+    background-color:  green;
+}
