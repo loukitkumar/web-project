@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div>
+      <P>does not follow BODMAS</P>
+   <table >
+    <tbody>
+    <tr>
+        <td colspan="3"><input type="text" id="result"></td>
+        <td><input type="button" value="C" onclick="sol('C')"></td>
+
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="sol('1')"></td>
+        <td><input type="button" value="2" onclick="sol('2')"></td>
+        <td><input type="button" value="3" onclick="sol('3')"></td>
+        <td><input type="button" value="+" onclick="sol('+')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="sol('4')"></td>
+        <td><input type="button" value="5" onclick="sol('5')"></td>
+        <td><input type="button" value="6" onclick="sol('6')"></td>
+        <td><input type="button" value="-" onclick="sol('-')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="sol('7')"></td>
+        <td><input type="button" value="8" onclick="sol('8')"></td>
+        <td><input type="button" value="9" onclick="sol('9')"></td>
+        <td><input type="button" value="/" onclick="sol('/')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="0" onclick="sol('0')"></td>
+        <td><input type="button" value="." onclick="sol('.')"></td>
+        <td><input type="button" value="=" onclick="sol('=')"></td>
+        <td><input type="button" value="*" onclick="sol('*');"></td>
+    </tr>
+    </tbody>
+   </table>
+ 
+   </div>
+  </body>
+  <script src="main.js"></script>
+</html>

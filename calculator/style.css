@@ -1,0 +1,23 @@
+input[type="button"]{
+   width: 51px;
+   background: rgb(200,200,225);
+   border:none;
+}
+input[type="button"]:hover{
+      background: rgb(180,100,225);
+
+}
+td{
+    border: 1px solid black;
+}
+table{
+   display: flex;
+}
+div{
+   
+   background: #333;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
